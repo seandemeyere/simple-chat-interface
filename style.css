@@ -1,0 +1,47 @@
+body {
+	font:14px verdana;
+	color: white;
+	text-align: center;
+	padding:20px;
+}
+
+#wrapper {
+	margin:5px auto;
+	padding-bottom: 10px;
+	background-image: url('http://4.bp.blogspot.com/-hNTJIUf7vfM/Tm4PKKQ8R5I/AAAAAAAAAqs/2Ik5gDlHNeA/s1600/Red+Hot+Chili+Peppers+iphone+wallpaper_1.jpg');
+	width: 300px;
+	height: 500px;
+	border:1px solid #171814;
+	border-radius: 25px;
+}
+
+#chatHeader {
+	padding:12px 20px 12px 20px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+
+#chatApp {
+	text-align: left;
+	color: white;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	background:red;
+	height:250px;
+	width: 250px;
+	border: 3px solid #ACD8F0;
+	border-radius: 20px;
+	overflow: auto;
+}
+
+#messageArea {
+	margin: auto;
+}
+
+#userMessage {
+	margin-bottom: 0 0 0 12px;
+	border-radius: 10px;
+	text-align: left;
+}

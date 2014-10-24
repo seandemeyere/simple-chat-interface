@@ -1,9 +1,33 @@
 <!doctype html>
 <html>
+
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Chili Peppers Chat App</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <!-- link type="text/javascript" href="name"/ --> 
+
   </head>
+
   <body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <div id="chatHeader">
+      <h3>Chili Peppers Chat App</h3>
+      </div>
+
+      <!-- Chatbox Area -->
+      <div id="chatApp"></div>
+
+      <!-- Message Area -->
+      <div id="messageArea">
+        <input type="text" id="userMessage" placeholder="What's Up Yo!" size=45 ></input>
+        <br>
+        <input type="button" name"submit" id="chatButton" value="Talk To Me!" onclick="sendMessage()">
+
+      </div>
     
     <script src="script.js"></script>
 
